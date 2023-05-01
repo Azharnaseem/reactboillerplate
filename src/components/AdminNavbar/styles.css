@@ -1,0 +1,56 @@
+/*navbar =====*/
+.navbar {
+  color: white;
+  background-color: var(--black);
+  padding: 15px 0;
+}
+.logo {
+  width: 10rem;
+  height: 4rem;
+  /* background-color: gold; */
+}
+a.active {
+  font-weight: bold;
+  color: white;
+}
+.navbar span {
+  color: rgb(202, 148, 11);
+}
+
+.navbar-brand {
+  color: white;
+  /* background-color: red; */
+  max-width: 20px;
+  max-height: 200px;
+}
+.navbar-nav .nav-item a {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--white);
+  text-transform: uppercase;
+  margin-left: 40px;
+  /* background-color: red; */
+  border-top: 2px solid var(--black);
+}
+.navbar h3 {
+  font-family: cursive;
+}
+.navbar-nav .nav-item a:hover {
+  color: rgb(202, 148, 11);
+  border-top: 2px solid rgb(202, 148, 11);
+}
+.btn:hover {
+  border-color: rgb(202, 148, 11);
+  background-color: rgb(202, 148, 11);
+}
+/* .navbar-toggler-icon {
+  font-family: FontAwesome;
+  content: "\f0c9"; /* fa-bars, fa-navicon */
+/* background-color: red; */
+/* color: green; */
+/* } */
+
+/* ul li {
+  text-transform: uppercase;
+} */
+/*hero Section */

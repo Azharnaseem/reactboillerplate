@@ -1,0 +1,53 @@
+section.footer {
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+}
+.footer h4 {
+  color: rgb(202, 148, 11);
+}
+.ft1 h3 {
+  font-weight: 900;
+  font-family: cursive;
+}
+.ft1 span {
+  color: rgb(202, 148, 11);
+}
+.footerIcons {
+  width: 32px;
+  height: 32px;
+  color: rgb(202, 148, 11);
+  margin-right: 10px;
+  padding: 20px 0;
+}
+.footerIcons:hover {
+  color: white;
+  transition: 2;
+}
+.ft2 li {
+  padding: 3px 0;
+  list-style: none;
+}
+.list {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+.list:hover {
+  list-style: none;
+  color: rgb(202, 148, 11);
+  text-decoration: none;
+}
+.btmfooterBar {
+  background-color: var(--scdry);
+  text-align: center;
+  font-size: large;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    text-align: center;
+  }
+}
