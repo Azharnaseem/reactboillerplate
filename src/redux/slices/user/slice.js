@@ -18,6 +18,9 @@ const userSlice = createSlice({
       state.isLoggedIn = true;
     },
     setIsLoggedIn: (state, action) => {
+      // console.log("====================================");
+      // console.log("action in state", action.payload);
+      // console.log("====================================");
       state.isLoggedIn = action.payload;
     },
   },

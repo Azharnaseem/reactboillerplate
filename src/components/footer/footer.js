@@ -87,13 +87,14 @@ const Footer = () => {
             <div className="col-md-3 ft3 ">
               <h4 className="pb-2">Quick Links</h4>
               <p>
-                <i class="fa-sharp fa-solid fa-phone-volume"></i> +92340768573
+                <i className="fa-sharp fa-solid fa-phone-volume"></i>{" "}
+                +92340768573
               </p>
               <p>
-                <i class="fa-solid fa-envelope"></i> azharnaseem46@gmail.com
+                <i className="fa-solid fa-envelope"></i> azharnaseem46@gmail.com
               </p>
               <p>
-                <i class="fa-solid fa-paper-plane"></i> Azad Jummu &
+                <i className="fa-solid fa-paper-plane"></i> Azad Jummu &
                 Kashmir,Pakistan
               </p>
             </div>

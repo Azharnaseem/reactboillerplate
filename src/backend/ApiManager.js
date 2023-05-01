@@ -4,7 +4,7 @@ axios.defaults.baseURL = BaseUrll;
 // console.log("baseeeurl", axios.defaults.baseURL);
 axios.interceptors.response.use(
   (response) => {
-    // console.log("res====", response);
+    console.log("re==s====", response);
     return response?.data;
   },
   (error) => {
